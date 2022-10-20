@@ -15,6 +15,10 @@
   "keywords": [
     "feedbackhq"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/willgardner9/feedbackhq-js.git"
+  },
   "author": "Will Gardner",
   "license": "MIT",
   "devDependencies": {
