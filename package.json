@@ -1,6 +1,6 @@
 {
   "name": "feedbackhq",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Add user identification to your FeedbackHQ widget",
   "main": "lib/feedbackhq.js",
   "types": "lib/feedbackhq.d.ts",
