@@ -1,5 +1,5 @@
 /**
- * Attach an identifier to a user's feedback from the FeedbackHQ widget
+ * Identify a user from in a FeedbackHQ embed
  * @param identifier
  */
 export declare const feedbackHqIdentifyUser: (identifier: string) => void;
