@@ -3,6 +3,6 @@
  * @param identifier
  */
 export const feedbackHqIdentifyUser = (identifier: string) => {
-  const addIdentifierEvent = new CustomEvent("feedbackHqAddIdentifier", {detail: identifier});
+  const addIdentifierEvent = new CustomEvent("feedbackHqAddIdentifier", {bubbles: true, detail: identifier});
   window.dispatchEvent(addIdentifierEvent);
 };
