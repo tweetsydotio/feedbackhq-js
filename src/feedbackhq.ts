@@ -7,6 +7,10 @@ export const feedbackHqIdentifyUser = (identifier: string) => {
   window.dispatchEvent(addIdentifierEvent);
 };
 
+/**
+ * Toggle the visibility of the FeedbackHQ widget
+ * @param isVisible
+ */
 export const feedbackHqToggleWidgetVisibility = (isVisible: boolean) => {
   const iframe = document.getElementById("feedbackhq-widget");
 
